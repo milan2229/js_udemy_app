@@ -7,8 +7,6 @@
 
 .child {
   background-color: orange;
-  width: 100px;
-  height: 100px;
   font-weight: 600;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -44,4 +42,12 @@
 /**
  * 上下方向のレイアウト
  */
+.parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */

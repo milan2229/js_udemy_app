@@ -6,8 +6,8 @@
 
 .child {
   background-color: orange;
-  width: 100px;
-  height: 100px;
+  // width: 100px;
+  // height: 100px;
   font-weight: 600;
   flex-grow: 1;
   flex-basis: 300px;
@@ -16,6 +16,8 @@
   flex-shrink: 0;
 }
 .child.v2 {
+  // width: 200px;
+  // height: 200px;
   background-color: palevioletred;
   flex-grow: 2;
 }
@@ -56,8 +58,10 @@
 //   transform: translate(-50%, -50%);
 // }
 
-// .parent {
-//   display: flex;
-//   flex-direction: row-reverse;
-//   justify-content: center;
-// }
+.parent {
+  display: flex;
+  justify-content: center;
+  // flex-direction: row-reverse;
+  // align-items: flex-end;
+  // flex-wrap: wrap;
+}
