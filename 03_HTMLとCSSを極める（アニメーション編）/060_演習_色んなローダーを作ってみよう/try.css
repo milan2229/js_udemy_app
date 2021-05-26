@@ -2,4 +2,70 @@
 .try {
   /** ここに記述しよう */
 }
+
+.try .spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  margin: 100px auto;
+  -webkit-animation-name: sk-rotateplane;
+          animation-name: sk-rotateplane;
+  -webkit-animation-duration: 1.2s;
+          animation-duration: 1.2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes sk-rotateplane2, {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+
+@keyframes sk-rotateplane2, {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+            transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
+  }
+}
+
+.try .double-spinner {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.try .rect-spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+}
 /*# sourceMappingURL=try.css.map */
