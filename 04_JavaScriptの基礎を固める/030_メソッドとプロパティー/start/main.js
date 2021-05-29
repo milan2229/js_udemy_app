@@ -1,2 +1,2 @@
 let hello = 'hello world'
-console.log(hello.split(' '));
+console.log(hello.slice(0,7));
