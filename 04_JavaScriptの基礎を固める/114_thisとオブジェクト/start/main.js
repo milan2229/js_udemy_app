@@ -28,5 +28,5 @@ class MyObj {
 const obj2 = new MyObj();
 
 
-obj.printFullName();
-obj2.printFullName();
+// obj.printFullName();
+// obj2.printFullName();
